@@ -1,31 +1,1001 @@
-id,first_name,last_name,email,gender,ip_address
-1,Erastus,Swaisland,eswaisland0@mapy.cz,Polygender,182.234.72.150
-2,Deeyn,Perllman,dperllman1@china.com.cn,Genderfluid,141.149.80.129
-3,Zena,Maloney,zmaloney2@g.co,Genderqueer,87.199.114.28
-4,Kirsti,Pirot,kpirot3@cdc.gov,Female,244.53.229.73
-5,Karlee,Sigward,ksigward4@printfriendly.com,Male,37.250.235.233
-6,Sherman,Burdytt,sburdytt5@csmonitor.com,Genderfluid,53.123.85.104
-7,Daffie,Wallentin,dwallentin6@patch.com,Agender,21.138.189.177
-8,Davine,Pudsey,dpudsey7@weibo.com,Genderfluid,226.180.137.135
-9,Ginnie,Tipton,gtipton8@mediafire.com,Male,35.162.203.121
-10,Jacky,Pounds,jpounds9@cmu.edu,Male,63.249.232.88
-11,Brendis,Tugwell,btugwella@boston.com,Female,84.12.239.112
-12,Susann,Kesterton,skestertonb@abc.net.au,Agender,171.176.193.198
-13,Gillie,Bissiker,gbissikerc@vimeo.com,Agender,133.217.156.215
-14,Clementius,Clingoe,cclingoed@java.com,Non-binary,187.25.161.200
-15,Brig,Maggiore,bmaggioree@baidu.com,Bigender,14.231.41.103
-16,Roze,Shimon,rshimonf@amazon.de,Agender,166.19.157.78
-17,Aubrey,Gaish,agaishg@github.io,Polygender,102.252.128.100
-18,Beauregard,Kirmond,bkirmondh@flickr.com,Male,82.1.179.214
-19,Juliane,Kevane,jkevanei@chron.com,Bigender,73.211.26.149
-20,Bobbe,Beernt,bbeerntj@google.es,Polygender,43.12.84.153
-21,Huntley,Pettitt,hpettittk@pcworld.com,Female,240.100.231.38
-22,Hermia,Ilem,hileml@imageshack.us,Genderqueer,122.99.60.200
-23,Holt,Mason,hmasonm@va.gov,Genderqueer,201.219.17.153
-24,Tabitha,McGreal,tmcgrealn@indiegogo.com,Genderqueer,57.243.65.142
-25,Taylor,Olyonov,tolyonovo@multiply.com,Agender,30.107.21.49
-26,Spenser,Zukerman,szukermanp@psu.edu,Polygender,53.40.108.32
-27,Babita,Theyer,btheyerq@latimes.com,Polygender,146.225.90.237
-28,Maurie,Dullaghan,mdullaghanr@storify.com,Male,63.244.223.150
-29,Ashlee,Jedras,ajedrass@cbsnews.com,Genderqueer,153.246.150.37
-30,Waite,Iacobini,wiacobinit@yandex.ru,Bigender,89.210.250.167
+id,animal_name,skin_color,date_birth
+1,Red brocket,Turquoise,8/29/2020
+2,Green-backed heron,Indigo,11/13/2020
+3,"Cockatoo, slender-billed",Maroon,3/18/2021
+4,Eurasian hoopoe,Blue,4/1/2020
+5,"Sheep, red",Violet,8/8/2021
+6,Brush-tailed bettong,Turquoise,3/23/2020
+7,Fisher,Crimson,7/27/2021
+8,Eastern indigo snake,Khaki,12/27/2020
+9,"Gonolek, burchell's",Khaki,2/23/2020
+10,"Bear, sloth",Maroon,1/1/2020
+11,"Partridge, coqui",Mauv,3/23/2020
+12,Superb starling,Violet,8/6/2021
+13,"Avocet, pied",Goldenrod,7/26/2021
+14,"Whale, baleen",Teal,2/4/2020
+15,"Seal, northern fur",Teal,7/27/2021
+16,"Booby, masked",Purple,7/10/2020
+17,"Bear, grizzly",Pink,2/24/2021
+18,Mexican boa,Yellow,8/23/2021
+19,"Bulbul, african red-eyed",Puce,6/18/2021
+20,Little cormorant,Red,5/30/2021
+21,Pampa gray fox,Fuscia,2/1/2020
+22,"Macaw, green-winged",Blue,6/9/2021
+23,"Bird, secretary",Puce,4/13/2020
+24,"Snake, tiger",Turquoise,9/16/2020
+25,"Baboon, olive",Khaki,7/1/2020
+26,South African hedgehog,Crimson,4/4/2021
+27,"Polecat, african",Khaki,2/1/2020
+28,"Toucan, red-billed",Khaki,4/22/2020
+29,Silver-backed fox,Fuscia,3/25/2020
+30,"Pelican, great white",Purple,7/13/2021
+31,"Dove, rock",Goldenrod,1/4/2021
+32,Ring-necked pheasant,Khaki,2/23/2021
+33,"Iguana, land",Aquamarine,8/5/2021
+34,"Rhinoceros, white",Maroon,8/12/2020
+35,"Cat, toddy",Purple,8/9/2020
+36,"Peccary, white-lipped",Orange,5/18/2021
+37,Chacma baboon,Maroon,6/17/2021
+38,Brindled gnu,Turquoise,3/26/2021
+39,"Flicker, campo",Green,1/6/2020
+40,"Caracara, yellow-headed",Maroon,7/4/2021
+41,African ground squirrel (unidentified),Fuscia,9/28/2020
+42,"Nuthatch, red-breasted",Yellow,6/19/2021
+43,Lizard (unidentified),Orange,9/5/2021
+44,Red-tailed phascogale,Crimson,2/15/2021
+45,Pampa gray fox,Mauv,3/6/2021
+46,Southern hairy-nosed wombat,Turquoise,10/22/2020
+47,Tasmanian devil,Puce,6/11/2021
+48,"Shelduck, common",Indigo,2/5/2020
+49,"Dove, mourning collared",Blue,7/16/2021
+50,"Wallaroo, common",Indigo,1/27/2020
+51,"Gull, pacific",Teal,3/15/2021
+52,Javanese cormorant,Turquoise,1/22/2021
+53,Yellow-crowned night heron,Orange,6/9/2021
+54,"Viper, egyptian",Teal,4/18/2021
+55,Goliath heron,Teal,1/29/2020
+56,"Snake, buttermilk",Khaki,7/10/2021
+57,"Openbill, asian",Blue,5/22/2021
+58,"Plover, three-banded",Indigo,1/26/2020
+59,Eastern dwarf mongoose,Violet,9/15/2021
+60,Huron,Fuscia,2/18/2021
+61,"Skua, great",Violet,5/6/2020
+62,"Hawk, galapagos",Goldenrod,5/18/2021
+63,"Vulture, griffon",Teal,11/22/2020
+64,"Bleu, red-cheeked cordon",Orange,5/17/2020
+65,Long-billed corella,Orange,3/5/2021
+66,"Lizard, desert spiny",Khaki,12/3/2020
+67,Mallard,Teal,2/7/2020
+68,"Kangaroo, eastern grey",Khaki,2/6/2021
+69,"Porcupine, crested",Purple,1/22/2021
+70,"Sifaka, verreaux's",Mauv,7/25/2020
+71,Cheetah,Turquoise,1/11/2020
+72,Ring-tailed lemur,Blue,9/14/2021
+73,"Teal, hottentot",Turquoise,6/5/2020
+74,Black kite,Crimson,8/3/2021
+75,Greater rhea,Khaki,10/29/2020
+76,Dromedary camel,Maroon,6/5/2021
+77,Long-billed cockatoo,Crimson,8/26/2021
+78,"Macaw, blue and gold",Green,5/13/2020
+79,"Quoll, eastern",Turquoise,8/30/2020
+80,"Dove, mourning collared",Indigo,8/5/2020
+81,Red deer,Crimson,7/31/2021
+82,Silver gull,Mauv,8/23/2021
+83,White-winged black tern,Aquamarine,2/25/2021
+84,"Colobus, white-mantled",Mauv,6/1/2021
+85,Old world fruit bat (unidentified),Purple,5/19/2021
+86,Polar bear,Orange,3/22/2020
+87,"Beaver, american",Green,9/16/2020
+88,Black swan,Crimson,2/1/2020
+89,"Cormorant, little",Pink,8/18/2020
+90,"Falcon, peregrine",Orange,12/3/2020
+91,Common duiker,Purple,1/19/2020
+92,"Finch, common melba",Purple,5/25/2021
+93,Rufous tree pie,Goldenrod,1/18/2020
+94,Cape raven,Teal,2/24/2020
+95,Swamp deer,Red,3/20/2020
+96,Crested barbet,Puce,7/1/2020
+97,Blue duck,Red,1/2/2021
+98,"Skimmer, four-spotted",Green,12/20/2020
+99,"Cat, cape wild",Pink,4/27/2020
+100,"Seal, southern elephant",Goldenrod,8/13/2021
+101,Silver-backed fox,Blue,6/11/2020
+102,Crowned hawk-eagle,Pink,1/18/2021
+103,Common rhea,Puce,1/21/2020
+104,Manatee,Mauv,3/29/2021
+105,"Turtle, snake-necked",Orange,12/27/2020
+106,Asian water buffalo,Goldenrod,2/24/2021
+107,"Wallaby, dama",Green,9/3/2020
+108,"Penguin, fairy",Puce,4/15/2020
+109,Steenbuck,Puce,5/7/2020
+110,Desert kangaroo rat,Puce,8/22/2021
+111,"Magpie, australian",Violet,1/4/2020
+112,Striated heron,Indigo,6/14/2020
+113,African porcupine,Fuscia,4/8/2020
+114,Warthog,Blue,12/7/2020
+115,"Hawk, red-tailed",Crimson,3/12/2021
+116,"Owl, great horned",Teal,4/20/2020
+117,Green heron,Mauv,5/26/2021
+118,"Nutcracker, clark's",Red,3/12/2020
+119,Knob-nosed goose,Red,7/20/2020
+120,Blue duck,Blue,1/9/2021
+121,Bushpig,Purple,4/11/2020
+122,Indian giant squirrel,Turquoise,9/5/2020
+123,Superb starling,Orange,10/5/2020
+124,"Bandicoot, long-nosed",Crimson,9/21/2020
+125,"Possum, golden brush-tailed",Indigo,8/27/2021
+126,"Opossum, american virginia",Teal,7/14/2020
+127,"Capuchin, black-capped",Indigo,8/30/2021
+128,European wild cat,Indigo,1/8/2021
+129,"Booby, masked",Goldenrod,9/1/2021
+130,Arboral spiny rat,Indigo,6/1/2020
+131,Hummingbird (unidentified),Maroon,3/26/2020
+132,"Dog, bush",Crimson,8/28/2020
+133,Frilled lizard,Maroon,3/13/2020
+134,Fat-tailed dunnart,Turquoise,2/3/2021
+135,"Weaver, red-billed buffalo",Green,2/11/2020
+136,Meerkat,Turquoise,12/25/2020
+137,African wild cat,Violet,7/27/2020
+138,Dark-winged trumpeter,Khaki,4/4/2020
+139,Oriental white-backed vulture,Yellow,9/3/2020
+140,Black kite,Pink,8/21/2020
+141,North American porcupine,Purple,4/1/2021
+142,Land iguana,Violet,7/16/2020
+143,African red-eyed bulbul,Khaki,3/13/2020
+144,"Jackal, black-backed",Orange,1/13/2020
+145,"Monitor, two-banded",Turquoise,3/24/2020
+146,"Marmot, hoary",Orange,2/27/2020
+147,"Penguin, little blue",Green,9/15/2021
+148,"Vulture, black",Puce,1/23/2020
+149,"Elephant, asian",Goldenrod,8/4/2021
+150,Bengal vulture,Teal,9/23/2020
+151,"Roller, lilac-breasted",Orange,10/15/2020
+152,North American porcupine,Goldenrod,4/17/2020
+153,"Lion, south american sea",Indigo,1/7/2021
+154,"Penguin, little blue",Green,1/16/2021
+155,Green heron,Purple,2/8/2020
+156,"Porcupine, tree",Purple,4/25/2021
+157,Antelope ground squirrel,Green,9/14/2021
+158,Southern black-backed gull,Purple,9/18/2020
+159,"Wallaby, tammar",Indigo,5/12/2020
+160,Radiated tortoise,Pink,10/30/2020
+161,Bottle-nose dolphin,Turquoise,1/18/2021
+162,"Jackal, black-backed",Turquoise,6/19/2021
+163,"Cobra, cape",Turquoise,7/23/2020
+164,Grizzly bear,Turquoise,12/2/2020
+165,Greylag goose,Blue,8/31/2020
+166,Fork-tailed drongo,Violet,4/11/2021
+167,"Tarantula, salmon pink bird eater",Mauv,7/20/2020
+168,"Robin, kalahari scrub",Mauv,1/2/2020
+169,"Legaan, water",Maroon,7/3/2021
+170,Eastern cottontail rabbit,Red,9/10/2020
+171,Brush-tailed phascogale,Crimson,6/7/2020
+172,Silver-backed jackal,Red,2/4/2021
+173,Small-toothed palm civet,Mauv,2/11/2020
+174,Green-winged macaw,Khaki,4/30/2021
+175,Pied cormorant,Goldenrod,7/29/2020
+176,"Booby, masked",Aquamarine,5/14/2021
+177,Golden brush-tailed possum,Violet,8/7/2021
+178,Woylie,Puce,9/13/2020
+179,"Ox, musk",Purple,7/3/2021
+180,"Snake, tiger",Orange,4/4/2020
+181,Common zebra,Violet,6/10/2021
+182,"Bird, red-billed tropic",Indigo,11/13/2020
+183,Small-toothed palm civet,Orange,8/13/2020
+184,Paca,Teal,6/24/2021
+185,"Egret, cattle",Violet,1/31/2021
+186,Ring-tailed coatimundi,Red,3/7/2020
+187,Bent-toed gecko,Maroon,5/18/2020
+188,"Gorilla, western lowland",Green,3/3/2021
+189,"Albatross, waved",Maroon,8/23/2020
+190,Blackish oystercatcher,Puce,5/27/2020
+191,"Mongoose, yellow",Yellow,2/13/2021
+192,Large-eared bushbaby,Pink,9/6/2020
+193,Blue duck,Teal,6/16/2021
+194,Red squirrel,Khaki,8/27/2020
+195,Small-clawed otter,Indigo,1/24/2020
+196,"Kangaroo, black-faced",Turquoise,1/15/2020
+197,"Caiman, spectacled",Goldenrod,1/25/2021
+198,Slender loris,Puce,8/15/2021
+199,"Quoll, eastern",Teal,10/15/2020
+200,"Barbet, black-collared",Mauv,2/3/2021
+201,Red-tailed hawk,Goldenrod,11/21/2020
+202,"Zebra, common",Fuscia,11/15/2020
+203,"Monitor, water",Red,6/27/2020
+204,White-headed vulture,Orange,1/5/2020
+205,Asian red fox,Goldenrod,3/6/2021
+206,"Reedbuck, bohor",Fuscia,3/27/2021
+207,"Starling, greater blue-eared",Violet,7/24/2020
+208,Grey mouse lemur,Purple,3/31/2020
+209,Roe deer,Teal,2/10/2021
+210,Gelada baboon,Indigo,12/1/2020
+211,"Lion, australian sea",Teal,11/15/2020
+212,White-cheeked pintail,Purple,7/16/2021
+213,Rufous tree pie,Mauv,3/4/2021
+214,"Genet, small-spotted",Yellow,1/13/2020
+215,"Pelican, great white",Red,2/6/2020
+216,"Lion, australian sea",Orange,12/6/2020
+217,Timber wolf,Purple,1/28/2020
+218,"Bandicoot, southern brown",Puce,8/2/2020
+219,"Weaver, chestnut",Indigo,8/11/2020
+220,Glossy ibis,Turquoise,6/1/2020
+221,Grison,Mauv,2/12/2020
+222,"Zorro, azara's",Green,3/2/2020
+223,Paradoxure,Orange,4/23/2021
+224,Galapagos albatross,Fuscia,8/11/2020
+225,"Capuchin, black-capped",Turquoise,10/6/2020
+226,"Hornbill, red-billed",Green,8/31/2020
+227,American bison,Pink,5/4/2021
+228,European badger,Blue,6/20/2021
+229,Golden jackal,Maroon,10/30/2020
+230,Roseat flamingo,Puce,1/24/2021
+231,"Wallaroo, common",Indigo,5/31/2020
+232,Long-nosed bandicoot,Fuscia,2/25/2021
+233,"Opossum, american virginia",Goldenrod,6/18/2020
+234,"Zebra, plains",Blue,12/23/2020
+235,Black kite,Red,2/15/2021
+236,"Stilt, black-winged",Mauv,10/21/2020
+237,"Wallaroo, common",Yellow,12/17/2020
+238,"Mongoose, yellow",Purple,11/20/2020
+239,Green-backed heron,Mauv,3/7/2020
+240,"Lory, rainbow",Fuscia,7/24/2021
+241,"Wallaroo, common",Indigo,7/22/2021
+242,Campo flicker,Puce,3/28/2021
+243,Asian lion,Violet,6/15/2021
+244,Large cormorant,Yellow,12/12/2020
+245,"Crane, sandhill",Maroon,1/23/2020
+246,"Monitor, white-throated",Red,2/16/2021
+247,"Tern, arctic",Turquoise,5/3/2020
+248,Lesser mouse lemur,Blue,10/6/2020
+249,Crimson-breasted shrike,Green,12/2/2020
+250,"Skink, african",Purple,8/29/2020
+251,White-throated robin,Blue,12/2/2020
+252,Grey fox,Red,4/30/2020
+253,"Elephant, asian",Maroon,12/28/2020
+254,American woodcock,Violet,5/16/2020
+255,Arctic hare,Violet,2/3/2020
+256,Praying mantis (unidentified),Goldenrod,8/12/2021
+257,"Wallaby, red-necked",Crimson,9/1/2021
+258,Brush-tailed bettong,Maroon,4/11/2020
+259,"Hare, arctic",Purple,2/8/2020
+260,"Bird, magnificent frigate",Purple,3/13/2020
+261,"Skunk, striped",Pink,1/19/2021
+262,"Shrike, southern white-crowned",Crimson,9/1/2020
+263,"Hawk, ferruginous",Pink,1/29/2021
+264,"Capuchin, brown",Indigo,3/9/2021
+265,African wild cat,Maroon,6/24/2021
+266,Common shelduck,Aquamarine,5/7/2021
+267,Japanese macaque,Puce,7/20/2020
+268,Cheetah,Teal,1/30/2020
+269,Two-toed sloth,Teal,8/7/2021
+270,"Heron, boat-billed",Red,10/19/2020
+271,Yellow-throated sandgrouse,Mauv,4/7/2020
+272,Worm snake (unidentified),Puce,4/11/2020
+273,Cape fox,Mauv,2/10/2020
+274,"Lynx, african",Khaki,5/21/2020
+275,Giraffe,Khaki,10/13/2020
+276,Green heron,Puce,9/30/2021
+277,Trumpeter swan,Yellow,11/23/2020
+278,Square-lipped rhinoceros,Blue,1/13/2020
+279,"Bird, bare-faced go away",Khaki,11/18/2020
+280,"Owl, great horned",Orange,10/17/2020
+281,"Marmot, hoary",Fuscia,12/13/2020
+282,"Ringtail, common",Red,4/9/2021
+283,"Boa, mexican",Fuscia,8/7/2021
+284,"Tern, white-winged",Crimson,4/15/2020
+285,White-browed owl,Maroon,2/10/2021
+286,Cougar,Crimson,7/23/2020
+287,"Hoopoe, eurasian",Puce,7/21/2020
+288,Short-beaked echidna,Yellow,2/21/2021
+289,"Lizard, giant girdled",Teal,2/15/2021
+290,Onager,Aquamarine,6/22/2021
+291,"Moorhen, purple",Fuscia,8/4/2021
+292,"Stork, yellow-billed",Fuscia,7/16/2021
+293,White-tailed jackrabbit,Teal,4/23/2020
+294,"Kingfisher, white-throated",Red,10/10/2020
+295,Oriental short-clawed otter,Goldenrod,2/13/2020
+296,Short-beaked echidna,Red,3/25/2020
+297,"Snake, carpet",Indigo,9/19/2021
+298,"Eagle, bateleur",Crimson,4/14/2020
+299,Cheetah,Pink,7/2/2021
+300,White-throated monitor,Purple,9/18/2021
+301,"Flamingo, lesser",Yellow,12/11/2020
+302,Swallow (unidentified),Maroon,12/26/2020
+303,Thirteen-lined squirrel,Khaki,5/15/2021
+304,Woolly-necked stork,Blue,7/10/2021
+305,"Hornbill, red-billed",Turquoise,1/18/2021
+306,"Stork, woolly-necked",Mauv,6/18/2020
+307,"Tortoise, indian star",Fuscia,3/12/2021
+308,"Hedgehog, south african",Yellow,1/30/2021
+309,"Falcon, peregrine",Fuscia,9/26/2020
+310,"Jackal, black-backed",Violet,7/29/2020
+311,Red hartebeest,Fuscia,9/9/2021
+312,Barking gecko,Khaki,4/14/2020
+313,Dingo,Orange,7/10/2020
+314,"Kangaroo, eastern grey",Green,10/1/2021
+315,Seven-banded armadillo,Maroon,9/14/2021
+316,"Ferret, black-footed",Crimson,3/2/2020
+317,Native cat,Pink,10/3/2021
+318,"Turtle, snake-necked",Purple,6/7/2020
+319,Flying fox (unidentified),Maroon,6/28/2021
+320,Black-collared barbet,Pink,12/20/2020
+321,"Squirrel, thirteen-lined",Khaki,4/24/2021
+322,Black-tailed tree creeper,Pink,8/27/2020
+323,"Rhinoceros, white",Crimson,12/3/2020
+324,"Zebra, common",Mauv,8/26/2020
+325,Coqui partridge,Mauv,6/30/2021
+326,Cheetah,Yellow,5/12/2020
+327,"Skink, african",Turquoise,8/4/2021
+328,"Wallaby, dama",Puce,3/13/2020
+329,Pale-throated three-toed sloth,Pink,9/21/2021
+330,Canadian tiger swallowtail butterfly,Red,4/26/2021
+331,Common pheasant,Maroon,2/19/2021
+332,Bobcat,Violet,5/25/2021
+333,Sarus crane,Red,2/24/2020
+334,Sarus crane,Teal,7/1/2020
+335,Kongoni,Crimson,7/10/2020
+336,"Rhinoceros, black",Blue,5/6/2020
+337,"Barbet, black-collared",Fuscia,5/28/2020
+338,Yellow-crowned night heron,Purple,2/17/2020
+339,"Snake, eastern indigo",Turquoise,7/3/2021
+340,Cook's tree boa,Crimson,7/29/2021
+341,Caracara (unidentified),Turquoise,4/8/2020
+342,Pacific gull,Violet,7/26/2021
+343,"Peccary, collared",Orange,3/10/2021
+344,"Cat, kaffir",Red,11/14/2020
+345,Silver-backed fox,Orange,1/21/2021
+346,"Anteater, giant",Turquoise,8/6/2020
+347,"Caiman, spectacled",Purple,4/16/2021
+348,Bontebok,Pink,4/23/2021
+349,"Otter, oriental short-clawed",Purple,1/18/2021
+350,"Buffalo, asian water",Khaki,10/31/2020
+351,Eastern cottontail rabbit,Blue,4/29/2020
+352,Tasmanian devil,Red,6/25/2021
+353,"Squirrel, richardson's ground",Teal,4/6/2021
+354,"Hedgehog, south african",Turquoise,1/6/2020
+355,Moose,Green,2/14/2021
+356,Red-knobbed coot,Indigo,9/8/2020
+357,Crab (unidentified),Crimson,6/19/2021
+358,"Rhinoceros, white",Maroon,10/12/2020
+359,Magistrate black colobus,Blue,7/29/2020
+360,"Otter, north american river",Green,4/5/2020
+361,"Woodcock, american",Aquamarine,11/27/2020
+362,Southern lapwing,Turquoise,4/19/2020
+363,"Barbet, black-collared",Fuscia,12/20/2020
+364,"Goldeneye, barrows",Fuscia,9/17/2021
+365,"Tortoise, galapagos",Puce,5/10/2020
+366,Swainson's francolin,Maroon,11/10/2020
+367,Bushbuck,Khaki,2/12/2021
+368,Australian sea lion,Goldenrod,11/2/2020
+369,"Dog, raccoon",Violet,5/9/2020
+370,White-winged dove,Turquoise,9/24/2021
+371,"Duck, mountain",Turquoise,6/1/2020
+372,Fork-tailed drongo,Khaki,5/1/2020
+373,"Woodcock, american",Aquamarine,5/23/2021
+374,"Penguin, fairy",Teal,5/18/2021
+375,Klipspringer,Blue,4/15/2021
+376,Striated heron,Blue,5/21/2021
+377,Black-necked stork,Teal,5/26/2021
+378,"Macaque, rhesus",Purple,1/21/2020
+379,Rose-ringed parakeet,Khaki,5/31/2021
+380,Grey phalarope,Aquamarine,8/17/2021
+381,Woodchuck,Puce,9/6/2021
+382,Woodrat (unidentified),Aquamarine,1/26/2020
+383,River wallaby,Violet,10/15/2020
+384,"Marmot, hoary",Fuscia,9/27/2020
+385,"Raccoon, crab-eating",Crimson,7/10/2020
+386,Asiatic jackal,Yellow,9/11/2020
+387,Ring dove,Fuscia,12/22/2020
+388,Stick insect,Pink,9/17/2020
+389,Cape Barren goose,Red,2/1/2020
+390,White-fronted capuchin,Teal,3/1/2021
+391,African ground squirrel (unidentified),Mauv,4/20/2020
+392,"Boubou, southern",Blue,4/16/2021
+393,"Lion, australian sea",Yellow,6/2/2020
+394,"Heron, gray",Orange,4/7/2020
+395,"Mongoose, yellow",Aquamarine,1/28/2020
+396,Coqui francolin,Goldenrod,4/22/2021
+397,"Tern, white-winged black",Blue,4/29/2020
+398,Amazon parrot (unidentified),Violet,5/10/2021
+399,Bobcat,Red,6/6/2020
+400,"Kingfisher, malachite",Red,5/28/2021
+401,Cape Barren goose,Maroon,10/1/2020
+402,Magellanic penguin,Indigo,1/7/2021
+403,"Lion, south american sea",Red,1/25/2021
+404,King cormorant,Khaki,11/27/2020
+405,"Oystercatcher, blackish",Red,3/1/2020
+406,"Snake, western patch-nosed",Purple,1/1/2020
+407,"Otter, north american river",Orange,12/15/2020
+408,"Oystercatcher, blackish",Crimson,7/19/2020
+409,Black and white colobus,Red,5/4/2021
+410,African skink,Goldenrod,9/9/2020
+411,"Snake, eastern indigo",Red,2/12/2020
+412,European shelduck,Violet,8/17/2020
+413,"Barbet, crested",Violet,9/3/2021
+414,Ringtail cat,Blue,2/13/2021
+415,Black curlew,Green,1/14/2021
+416,"Gull, southern black-backed",Blue,5/11/2020
+417,"Wallaby, red-necked",Yellow,6/7/2020
+418,Giant heron,Pink,7/16/2021
+419,Cereopsis goose,Goldenrod,9/3/2021
+420,Lizard (unidentified),Violet,9/17/2021
+421,White-mantled colobus,Puce,4/20/2021
+422,Black-collared barbet,Teal,8/11/2020
+423,Great horned owl,Mauv,5/2/2020
+424,Turkey vulture,Maroon,7/31/2021
+425,Campo flicker,Puce,5/30/2020
+426,Red-billed toucan,Puce,6/13/2021
+427,Great skua,Goldenrod,2/1/2020
+428,Asian red fox,Crimson,11/14/2020
+429,"Tortoise, radiated",Red,11/9/2020
+430,Desert kangaroo rat,Teal,11/14/2020
+431,"Bunting, crested",Maroon,8/19/2020
+432,Black-throated butcher bird,Indigo,1/26/2021
+433,"Tern, white-winged black",Puce,9/8/2021
+434,"Quail, gambel's",Turquoise,8/5/2021
+435,Crown of thorns starfish,Goldenrod,3/29/2020
+436,"Sloth, pale-throated three-toed",Aquamarine,2/10/2021
+437,Red-tailed phascogale,Mauv,6/8/2020
+438,"Monkey, rhesus",Crimson,10/3/2021
+439,"Moorhen, purple",Crimson,1/24/2021
+440,"Goose, canada",Mauv,1/23/2021
+441,"Vulture, white-headed",Yellow,12/14/2020
+442,Caracara (unidentified),Teal,9/27/2020
+443,Indian star tortoise,Teal,11/17/2020
+444,"Grouse, greater sage",Teal,2/11/2020
+445,Red phalarope,Goldenrod,12/23/2020
+446,Rainbow lory,Teal,5/29/2021
+447,"Lizard, goanna",Teal,3/12/2021
+448,Roseat flamingo,Red,7/3/2020
+449,Sloth bear,Fuscia,2/24/2020
+450,Gila monster,Green,2/24/2020
+451,Sandhill crane,Yellow,3/20/2020
+452,"White-eye, pale",Fuscia,12/9/2020
+453,"Moorhen, purple",Mauv,5/2/2021
+454,Canada goose,Green,1/9/2021
+455,Cereopsis goose,Fuscia,4/6/2020
+456,"Kookaburra, laughing",Puce,5/8/2020
+457,"Cliffchat, mocking",Violet,2/8/2021
+458,"Goldeneye, barrows",Turquoise,9/4/2020
+459,Bleeding heart monkey,Pink,3/17/2020
+460,"Squirrel, nelson ground",Turquoise,11/23/2020
+461,"Shark, blue",Goldenrod,6/11/2021
+462,Lesser double-collared sunbird,Indigo,4/28/2020
+463,"Butterfly, tropical buckeye",Yellow,3/22/2020
+464,"Tinamou, elegant crested",Teal,6/27/2021
+465,"Cockatoo, long-billed",Turquoise,2/18/2021
+466,"Squirrel, grey-footed",Green,2/25/2021
+467,Yellow-necked spurfowl,Red,4/16/2021
+468,Antelope ground squirrel,Khaki,8/11/2020
+469,"Booby, masked",Fuscia,2/1/2021
+470,Red meerkat,Fuscia,2/9/2020
+471,Ringtail cat,Puce,4/3/2020
+472,"Sloth, two-toed",Crimson,3/22/2020
+473,Dama wallaby,Puce,8/25/2020
+474,African black crake,Purple,2/14/2020
+475,"Turtle, snake-necked",Violet,1/6/2021
+476,"Hartebeest, coke's",Puce,1/4/2020
+477,Musk ox,Maroon,8/14/2020
+478,Common wombat,Purple,3/22/2021
+479,Cuis,Teal,6/19/2020
+480,"Squirrel, smith's bush",Khaki,8/4/2020
+481,"Glider, squirrel",Red,6/26/2021
+482,Woodrat (unidentified),Crimson,4/26/2021
+483,"Jackal, golden",Goldenrod,7/30/2020
+484,Red-breasted nuthatch,Purple,1/31/2021
+485,Black-tailed prairie dog,Red,9/8/2020
+486,"Goose, spur-winged",Green,8/11/2021
+487,"Shelduck, common",Orange,3/13/2021
+488,"Vulture, king",Pink,9/14/2021
+489,"Gull, kelp",Pink,4/3/2021
+490,Civet (unidentified),Purple,6/14/2020
+491,Asiatic jackal,Aquamarine,12/25/2020
+492,"Duck, mountain",Blue,11/15/2020
+493,Western grey kangaroo,Mauv,2/23/2020
+494,"Squirrel, thirteen-lined",Yellow,7/20/2020
+495,Javan gold-spotted mongoose,Turquoise,5/23/2021
+496,Red-necked phalarope,Maroon,3/15/2021
+497,Striated heron,Green,1/23/2020
+498,"Chipmunk, least",Khaki,7/27/2021
+499,Sage hen,Orange,12/16/2020
+500,Barasingha deer,Red,8/8/2020
+501,"Sifaka, verreaux's",Aquamarine,2/5/2020
+502,"Colobus, magistrate black",Fuscia,9/16/2021
+503,Bleeding heart monkey,Yellow,8/2/2020
+504,"Chipmunk, least",Maroon,9/15/2020
+505,"Heron, black-crowned night",Turquoise,7/24/2021
+506,Australian spiny anteater,Mauv,9/13/2020
+507,"Hornbill, southern ground",Pink,10/17/2020
+508,Burmese black mountain tortoise,Fuscia,11/27/2020
+509,"Porcupine, north american",Red,12/16/2020
+510,"Fox, crab-eating",Purple,5/6/2020
+511,Laughing kookaburra,Yellow,1/10/2020
+512,Least chipmunk,Purple,1/29/2021
+513,American black bear,Mauv,7/26/2020
+514,Lizard (unidentified),Crimson,3/16/2020
+515,Scaly-breasted lorikeet,Pink,6/7/2020
+516,Snowy egret,Turquoise,5/18/2020
+517,"Caiman, spectacled",Blue,11/18/2020
+518,"Owl, madagascar hawk",Turquoise,2/17/2021
+519,"Macaque, rhesus",Green,1/27/2021
+520,Stick insect,Blue,10/22/2020
+521,"Beaver, american",Blue,12/27/2020
+522,"Cat, native",Pink,8/25/2020
+523,Great skua,Pink,8/13/2020
+524,Green heron,Yellow,7/29/2020
+525,Common zebra,Puce,3/31/2020
+526,"Raven, white-necked",Violet,7/17/2020
+527,Royal tern,Turquoise,7/21/2021
+528,Racer snake,Green,1/12/2020
+529,Neotropic cormorant,Violet,3/9/2020
+530,South American puma,Puce,3/7/2020
+531,"Pelican, great white",Puce,9/22/2021
+532,Kirk's dik dik,Green,8/6/2021
+533,"Colobus, black and white",Khaki,9/23/2021
+534,"Whale, southern right",Fuscia,8/10/2020
+535,Indian peacock,Teal,6/8/2021
+536,"Dik, kirk's dik",Orange,11/25/2020
+537,Ring-tailed possum,Aquamarine,8/15/2020
+538,"Vulture, griffon",Red,8/19/2021
+539,"Rhea, greater",Khaki,4/7/2021
+540,"Insect, stick",Goldenrod,5/29/2021
+541,Banded mongoose,Yellow,5/27/2021
+542,Civet cat,Indigo,11/11/2020
+543,Long-finned pilot whale,Blue,3/11/2021
+544,Cougar,Blue,8/28/2021
+545,Leadbeateri's ground hornbill,Aquamarine,9/3/2020
+546,Eastern box turtle,Puce,3/13/2020
+547,Dassie,Khaki,10/25/2020
+548,"Fox, grey",Green,1/18/2021
+549,Blacksmith plover,Turquoise,3/6/2020
+550,"Ibis, glossy",Crimson,4/25/2020
+551,"Kangaroo, black-faced",Fuscia,9/26/2020
+552,Griffon vulture,Fuscia,5/15/2020
+553,Eastern box turtle,Blue,12/4/2020
+554,"Woodcock, american",Yellow,7/17/2020
+555,Argalis,Teal,7/10/2020
+556,Wattled crane,Indigo,4/24/2021
+557,Southern ground hornbill,Fuscia,1/6/2021
+558,Gila monster,Puce,2/29/2020
+559,White-throated monitor,Mauv,4/18/2021
+560,White-winged dove,Pink,1/20/2020
+561,Southern tamandua,Turquoise,7/12/2020
+562,"Peccary, white-lipped",Goldenrod,3/10/2020
+563,European spoonbill,Violet,5/14/2021
+564,Common rhea,Crimson,1/31/2021
+565,"Peccary, collared",Goldenrod,3/24/2020
+566,Common eland,Aquamarine,4/28/2021
+567,Indian jackal,Green,3/25/2021
+568,African black crake,Green,2/12/2020
+569,"Coatimundi, ring-tailed",Goldenrod,4/7/2020
+570,"Squirrel, african bush",Red,2/17/2020
+571,Emu,Aquamarine,6/18/2020
+572,"Hyena, striped",Yellow,6/7/2021
+573,Common mynah,Puce,6/8/2020
+574,White-cheeked pintail,Purple,5/21/2021
+575,"Parrot, hawk-headed",Puce,6/27/2021
+576,"Otter, giant",Blue,7/21/2020
+577,Northern phalarope,Pink,11/30/2020
+578,Ovenbird,Pink,6/2/2021
+579,"Lizard, frilled",Aquamarine,6/11/2021
+580,Impala,Aquamarine,7/20/2021
+581,"Crab, red lava",Orange,5/1/2021
+582,Greater rhea,Aquamarine,8/14/2020
+583,"Pheasant, common",Green,6/21/2021
+584,"Crane, wattled",Khaki,12/19/2020
+585,"Capuchin, weeper",Turquoise,2/8/2020
+586,Weeper capuchin,Khaki,4/5/2020
+587,Black-eyed bulbul,Pink,9/26/2020
+588,Swallow (unidentified),Indigo,4/19/2021
+589,Swainson's francolin,Pink,5/6/2021
+590,"Macaw, blue and gold",Violet,5/7/2021
+591,Savannah deer (unidentified),Pink,5/23/2020
+592,Arctic fox,Yellow,5/10/2021
+593,"Monitor, white-throated",Fuscia,3/21/2020
+594,Common wallaroo,Green,9/10/2020
+595,"Sloth, two-toed tree",Maroon,3/30/2021
+596,Ant (unidentified),Red,3/5/2020
+597,"Moccasin, water",Orange,2/23/2021
+598,"Monitor, two-banded",Khaki,11/4/2020
+599,Common turkey,Goldenrod,2/22/2021
+600,Purple grenadier,Pink,4/1/2020
+601,Common goldeneye,Red,2/1/2021
+602,"Snake, eastern indigo",Khaki,6/13/2021
+603,"Kangaroo, black-faced",Turquoise,6/4/2021
+604,Secretary bird,Maroon,2/17/2021
+605,Tammar wallaby,Indigo,10/28/2020
+606,Kafue flats lechwe,Red,5/15/2020
+607,"Skua, long-tailed",Mauv,4/8/2020
+608,Red-breasted nuthatch,Puce,8/5/2020
+609,"Penguin, fairy",Red,10/3/2020
+610,Black-eyed bulbul,Purple,8/16/2020
+611,Spectacled caiman,Maroon,3/31/2020
+612,Prairie falcon,Orange,8/12/2021
+613,"Gecko, barking",Maroon,5/25/2020
+614,Black-backed jackal,Fuscia,9/21/2021
+615,"Caracara, yellow-headed",Khaki,9/29/2021
+616,Carpet snake,Aquamarine,5/28/2020
+617,"Cat, miner's",Red,10/13/2020
+618,"Ibis, puna",Khaki,7/24/2020
+619,White rhinoceros,Crimson,9/29/2021
+620,"Pheasant, common",Green,3/14/2021
+621,Striated heron,Aquamarine,12/22/2020
+622,"Oryx, fringe-eared",Puce,2/2/2020
+623,"Squirrel, uinta ground",Maroon,5/4/2021
+624,Pronghorn,Aquamarine,11/18/2020
+625,Carpet python,Maroon,1/8/2020
+626,"Hartebeest, red",Purple,5/20/2020
+627,"Drongo, fork-tailed",Pink,11/22/2020
+628,"Devil, tasmanian",Yellow,8/8/2021
+629,"Sunbird, lesser double-collared",Yellow,12/28/2020
+630,"Polecat, african",Aquamarine,2/1/2021
+631,Native cat,Fuscia,12/29/2020
+632,Snake (unidentified),Goldenrod,8/8/2020
+633,Green-backed heron,Purple,9/10/2021
+634,Common genet,Goldenrod,3/25/2021
+635,"Catfish, blue",Crimson,9/4/2020
+636,"Monitor, two-banded",Yellow,5/31/2021
+637,Steenbok,Yellow,3/24/2020
+638,"Squirrel, nelson ground",Aquamarine,3/18/2020
+639,Southern lapwing,Violet,1/3/2020
+640,Malleefowl,Crimson,8/1/2021
+641,Scaly-breasted lorikeet,Yellow,9/23/2021
+642,African lion,Khaki,5/11/2020
+643,"Duck, mountain",Teal,7/13/2020
+644,Common rhea,Crimson,8/25/2020
+645,Violet-eared waxbill,Blue,1/30/2021
+646,Royal tern,Red,7/12/2020
+647,Swallow (unidentified),Indigo,1/10/2020
+648,African polecat,Orange,1/27/2020
+649,Small-clawed otter,Puce,2/14/2021
+650,Red-knobbed coot,Crimson,4/1/2020
+651,Pied crow,Fuscia,3/16/2021
+652,Horned lark,Indigo,5/24/2021
+653,Eurasian beaver,Khaki,10/16/2020
+654,"Pheasant, common",Red,4/11/2021
+655,White-throated monitor,Blue,8/21/2021
+656,Chameleon (unidentified),Goldenrod,4/30/2021
+657,"Cockatoo, slender-billed",Fuscia,1/7/2020
+658,African red-eyed bulbul,Pink,1/12/2020
+659,"Shrike, common boubou",Mauv,2/23/2021
+660,"Eagle, bald",Yellow,3/12/2021
+661,"Dog, raccoon",Aquamarine,6/13/2021
+662,South American sea lion,Maroon,3/21/2021
+663,"Bear, black",Yellow,11/16/2020
+664,"Fox, cape",Maroon,2/8/2020
+665,Crab-eating raccoon,Goldenrod,9/29/2020
+666,Japanese macaque,Turquoise,7/24/2021
+667,"Ass, asiatic wild",Red,6/2/2020
+668,Mudskipper (unidentified),Fuscia,3/21/2021
+669,Spur-winged goose,Violet,11/1/2020
+670,Greater roadrunner,Aquamarine,1/22/2021
+671,"Dragon, asian water",Purple,4/19/2020
+672,"Francolin, coqui",Teal,4/25/2020
+673,Golden brush-tailed possum,Puce,7/9/2020
+674,Kongoni,Orange,1/18/2021
+675,Greylag goose,Khaki,5/18/2021
+676,"Snake, eastern indigo",Green,3/7/2020
+677,"Pie, rufous tree",Orange,3/15/2021
+678,"Snake, racer",Green,3/13/2021
+679,Sage grouse,Puce,11/14/2020
+680,Galah,Fuscia,9/2/2020
+681,Yellow-bellied marmot,Aquamarine,4/4/2020
+682,"Spoonbill, european",Aquamarine,8/26/2021
+683,Golden jackal,Mauv,12/25/2020
+684,Eurasian badger,Teal,9/15/2021
+685,"Dog, african wild",Yellow,7/11/2020
+686,Mocking cliffchat,Teal,10/5/2020
+687,Grey lourie,Fuscia,8/19/2021
+688,"Turtle, eastern box",Crimson,7/15/2021
+689,Cape fox,Blue,5/22/2021
+690,Fisher,Teal,2/7/2020
+691,"Phalarope, grey",Indigo,3/23/2020
+692,Common seal,Goldenrod,3/21/2021
+693,Sugar glider,Violet,8/19/2020
+694,"Weaver, white-browed sparrow",Green,2/1/2020
+695,Savannah deer (unidentified),Yellow,6/16/2021
+696,Southern screamer,Maroon,10/13/2020
+697,White-throated monitor,Aquamarine,7/20/2021
+698,Fringe-eared oryx,Khaki,7/10/2020
+699,"Badger, honey",Crimson,9/12/2021
+700,"Chipmunk, least",Indigo,7/25/2020
+701,Galapagos mockingbird,Goldenrod,7/24/2021
+702,Arctic ground squirrel,Violet,9/7/2021
+703,"Lion, african",Goldenrod,9/23/2020
+704,Southern hairy-nosed wombat,Khaki,2/13/2020
+705,"Possum, ring-tailed",Indigo,9/15/2020
+706,Common wolf,Orange,3/18/2021
+707,"Goose, cereopsis",Indigo,2/14/2021
+708,Swamp deer,Violet,6/12/2020
+709,"Pheasant, common",Green,10/18/2020
+710,"Squirrel, uinta ground",Purple,3/24/2021
+711,"Ringtail, common",Violet,1/8/2020
+712,Seven-banded armadillo,Goldenrod,10/14/2020
+713,Brazilian otter,Indigo,7/28/2020
+714,"Snake, eastern indigo",Khaki,5/23/2020
+715,"Marshbird, brown and yellow",Indigo,2/5/2021
+716,"Snake, tiger",Teal,1/12/2021
+717,"Rhinoceros, black",Teal,5/27/2021
+718,Osprey,Turquoise,9/27/2020
+719,"Plover, three-banded",Aquamarine,1/18/2021
+720,Bushbuck,Purple,11/5/2020
+721,"Albatross, galapagos",Teal,12/10/2020
+722,Snow goose,Blue,1/9/2021
+723,Aardwolf,Yellow,3/9/2020
+724,Rhesus monkey,Indigo,2/22/2021
+725,"Jacana, african",Goldenrod,8/15/2021
+726,"Lark, horned",Aquamarine,1/7/2020
+727,"Eagle, bateleur",Indigo,1/28/2020
+728,Cape Barren goose,Goldenrod,7/21/2020
+729,Woylie,Green,11/29/2020
+730,Western pygmy possum,Red,3/20/2021
+731,"Fox, bat-eared",Puce,8/28/2020
+732,"Beaver, european",Yellow,1/4/2020
+733,Greater blue-eared starling,Turquoise,5/16/2020
+734,"Nuthatch, red-breasted",Mauv,7/30/2020
+735,"Cockatoo, sulfur-crested",Puce,1/10/2021
+736,Bent-toed gecko,Goldenrod,12/26/2020
+737,Cape wild cat,Indigo,3/9/2021
+738,"Pigeon, feral rock",Mauv,4/9/2020
+739,Common langur,Turquoise,7/14/2020
+740,Long-necked turtle,Teal,3/1/2021
+741,"Thrasher, curve-billed",Aquamarine,2/15/2021
+742,"Coatimundi, ring-tailed",Violet,11/19/2020
+743,Silver gull,Purple,3/30/2020
+744,"Goose, canada",Violet,6/5/2020
+745,White-winged dove,Purple,9/7/2020
+746,American woodcock,Green,6/25/2021
+747,Northern phalarope,Crimson,9/9/2021
+748,Sociable weaver,Goldenrod,4/29/2021
+749,"Dragon, asian water",Violet,6/2/2020
+750,Snowy sheathbill,Orange,7/19/2021
+751,"Mynah, common",Mauv,2/18/2021
+752,"Finch, common melba",Red,2/5/2020
+753,Moose,Mauv,1/21/2020
+754,Canadian tiger swallowtail butterfly,Blue,1/16/2021
+755,Grison,Crimson,12/14/2020
+756,Pied butcher bird,Maroon,1/13/2021
+757,"Rhea, gray",Turquoise,8/15/2020
+758,"Lizard, desert spiny",Maroon,8/3/2021
+759,Red-shouldered glossy starling,Violet,12/24/2020
+760,"Darter, african",Puce,7/27/2021
+761,"Duiker, gray",Aquamarine,2/24/2021
+762,"Phalarope, grey",Aquamarine,4/29/2021
+763,Crested bunting,Green,10/27/2020
+764,Frog (unidentified),Teal,8/10/2020
+765,Brown capuchin,Indigo,12/30/2020
+766,Black vulture,Indigo,12/12/2020
+767,Land iguana,Goldenrod,10/25/2020
+768,"Falcon, prairie",Puce,6/14/2021
+769,"Cormorant, neotropic",Purple,7/24/2021
+770,"Baboon, chacma",Goldenrod,4/23/2020
+771,Barrows goldeneye,Indigo,8/17/2021
+772,White-throated robin,Crimson,7/12/2020
+773,White-rumped vulture,Blue,2/4/2021
+774,Blue waxbill,Crimson,2/13/2021
+775,Black-tailed deer,Blue,11/30/2020
+776,"Shark, blue",Fuscia,7/14/2021
+777,Andean goose,Orange,1/6/2020
+778,White rhinoceros,Blue,7/1/2021
+779,"Jackal, indian",Turquoise,4/5/2021
+780,White-bellied sea eagle,Teal,1/13/2020
+781,"Cat, jungle",Maroon,7/9/2020
+782,Wild turkey,Crimson,3/30/2020
+783,White stork,Indigo,8/8/2020
+784,Common zorro,Goldenrod,2/12/2021
+785,Little cormorant,Red,2/10/2020
+786,African polecat,Violet,1/22/2020
+787,"Kangaroo, eastern grey",Fuscia,4/3/2020
+788,American alligator,Crimson,10/26/2020
+789,"White-eye, pale",Aquamarine,4/3/2021
+790,Pied crow,Mauv,7/8/2021
+791,Black swan,Fuscia,4/19/2021
+792,White-nosed coatimundi,Turquoise,6/19/2020
+793,"Otter, cape clawless",Mauv,10/13/2020
+794,"Lion, california sea",Turquoise,2/25/2021
+795,Common turkey,Indigo,7/16/2021
+796,Common shelduck,Pink,7/14/2021
+797,White-bellied sea eagle,Puce,7/15/2021
+798,"Macaque, bonnet",Orange,1/12/2020
+799,"Goose, canada",Khaki,4/22/2021
+800,"Barbet, levaillant's",Aquamarine,4/15/2021
+801,"Marmot, yellow-bellied",Maroon,1/11/2021
+802,Caracara (unidentified),Purple,7/14/2021
+803,Potoroo,Aquamarine,9/14/2021
+804,North American river otter,Pink,7/27/2020
+805,"Capuchin, black-capped",Violet,12/29/2020
+806,"Wombat, common",Aquamarine,6/10/2020
+807,"Cardinal, red-capped",Teal,1/21/2021
+808,Barking gecko,Blue,3/26/2021
+809,Roseat flamingo,Pink,3/1/2021
+810,African elephant,Crimson,5/21/2021
+811,"Buffalo, african",Yellow,1/20/2020
+812,"Opossum, american virginia",Purple,9/28/2021
+813,"Lemming, arctic",Violet,12/21/2020
+814,Yellow-brown sungazer,Crimson,5/5/2021
+815,"Gull, swallow-tail",Crimson,10/4/2021
+816,"Wallaby, dama",Yellow,2/21/2020
+817,Southern tamandua,Goldenrod,8/9/2020
+818,Worm snake (unidentified),Teal,11/14/2020
+819,"Stork, saddle-billed",Indigo,5/9/2020
+820,"Tortoise, burmese black mountain",Teal,4/8/2020
+821,Dark-winged trumpeter,Green,4/30/2021
+822,"Lion, australian sea",Pink,4/11/2020
+823,Killer whale,Pink,7/20/2021
+824,Savanna baboon,Indigo,2/13/2021
+825,Brown capuchin,Puce,3/24/2020
+826,Masked booby,Indigo,2/13/2020
+827,"Capuchin, black-capped",Pink,4/7/2021
+828,"Whale, southern right",Indigo,10/4/2021
+829,"Fox, bat-eared",Mauv,7/6/2020
+830,"Eagle, golden",Red,8/24/2020
+831,White-necked stork,Indigo,12/5/2020
+832,Peregrine falcon,Indigo,11/4/2020
+833,"Booby, blue-footed",Pink,2/2/2020
+834,"Cat, toddy",Orange,7/23/2020
+835,"Gecko, ring-tailed",Crimson,4/26/2020
+836,"Crow, pied",Mauv,10/5/2021
+837,"Rhea, greater",Indigo,9/4/2020
+838,Hummingbird (unidentified),Red,3/7/2020
+839,White-necked raven,Orange,4/14/2020
+840,Red-headed woodpecker,Blue,1/26/2020
+841,African elephant,Teal,8/19/2021
+842,Puna ibis,Red,8/3/2021
+843,Desert spiny lizard,Yellow,2/6/2020
+844,Giant anteater,Aquamarine,12/28/2020
+845,"Woodpecker, red-headed",Indigo,2/18/2020
+846,Eagle owl (unidentified),Turquoise,12/18/2020
+847,Bengal vulture,Puce,9/29/2020
+848,Nine-banded armadillo,Puce,9/24/2021
+849,Burrowing owl,Green,4/20/2020
+850,"Cardinal, black-throated",Red,10/29/2020
+851,Pied crow,Puce,7/9/2021
+852,Leopard,Green,6/29/2021
+853,"Francolin, coqui",Purple,4/21/2021
+854,Common duiker,Teal,1/31/2021
+855,"Siskin, pine",Goldenrod,7/2/2021
+856,"Elephant, asian",Turquoise,10/24/2020
+857,Four-horned antelope,Indigo,5/9/2020
+858,"Glider, feathertail",Puce,7/31/2020
+859,Dabchick,Aquamarine,9/27/2020
+860,Malabar squirrel,Orange,2/1/2021
+861,"Mouse, four-striped grass",Maroon,9/4/2021
+862,Turkey vulture,Green,3/8/2020
+863,"Vulture, white-headed",Teal,4/7/2021
+864,Indian giant squirrel,Goldenrod,3/31/2020
+865,Openbill stork,Violet,6/13/2021
+866,Hudsonian godwit,Purple,1/26/2021
+867,"Stilt, black-winged",Fuscia,1/17/2020
+868,"Siskin, yellow-rumped",Blue,12/4/2020
+869,"Deer, swamp",Blue,9/27/2021
+870,Black-fronted bulbul,Turquoise,5/22/2020
+871,Turkey vulture,Goldenrod,6/10/2021
+872,"Goldeneye, barrows",Orange,8/22/2021
+873,"Spurfowl, yellow-necked",Maroon,6/26/2021
+874,"Bird, bare-faced go away",Yellow,9/10/2021
+875,Southern screamer,Goldenrod,9/22/2020
+876,"Dragon, komodo",Goldenrod,5/18/2021
+877,Burchell's gonolek,Orange,11/21/2020
+878,"Tenrec, tailless",Turquoise,1/29/2020
+879,"Lark, horned",Crimson,12/11/2020
+880,Griffon vulture,Pink,9/30/2020
+881,Eagle owl (unidentified),Puce,7/20/2020
+882,Turkey vulture,Pink,12/21/2020
+883,"Hawk, red-tailed",Yellow,12/9/2020
+884,Ground legaan,Maroon,4/23/2020
+885,"Goat, mountain",Red,4/18/2020
+886,Common eland,Turquoise,8/7/2021
+887,Flightless cormorant,Yellow,2/8/2021
+888,"Dove, laughing",Crimson,5/18/2021
+889,Asian water dragon,Orange,5/21/2020
+890,White-faced whistling duck,Teal,7/4/2020
+891,Short-nosed bandicoot,Purple,5/11/2021
+892,"Goose, greylag",Maroon,7/10/2021
+893,"Deer, barasingha",Indigo,2/8/2020
+894,"Squirrel, pine",Green,1/18/2020
+895,Snake (unidentified),Blue,7/18/2021
+896,"Moorhen, purple",Puce,11/20/2020
+897,"Wallaby, river",Yellow,3/14/2020
+898,Orca,Crimson,6/15/2020
+899,"Anteater, giant",Maroon,9/15/2020
+900,Mountain duck,Aquamarine,10/9/2020
+901,American beaver,Puce,3/5/2021
+902,Pied butcher bird,Maroon,7/30/2021
+903,"Openbill, asian",Indigo,9/20/2020
+904,"Seal, southern elephant",Teal,11/18/2020
+905,Hoary marmot,Blue,4/22/2021
+906,"Cat, miner's",Indigo,3/20/2021
+907,"Penguin, fairy",Teal,5/12/2021
+908,"Leopard, indian",Indigo,5/9/2021
+909,"Fox, asian red",Violet,7/12/2020
+910,"Crane, sandhill",Puce,8/15/2021
+911,Cape fox,Yellow,7/31/2020
+912,"Heron, giant",Goldenrod,6/17/2021
+913,"Barbet, black-collared",Orange,1/26/2020
+914,"Langur, gray",Mauv,7/5/2020
+915,Black rhinoceros,Goldenrod,11/13/2020
+916,"Armadillo, common long-nosed",Teal,3/20/2021
+917,Sloth bear,Maroon,8/9/2020
+918,"Dove, laughing",Pink,2/17/2021
+919,"Colobus, black and white",Violet,6/8/2021
+920,Black-crowned crane,Indigo,1/24/2021
+921,"Starling, red-shouldered glossy",Purple,3/6/2020
+922,Thomson's gazelle,Purple,2/8/2020
+923,"Rat, desert kangaroo",Fuscia,4/3/2020
+924,"Insect, stick",Yellow,12/18/2020
+925,Savanna baboon,Puce,9/3/2021
+926,"Seal, northern elephant",Blue,9/7/2020
+927,Barasingha deer,Goldenrod,10/3/2020
+928,Flying fox (unidentified),Yellow,6/3/2020
+929,"Cat, kaffir",Green,9/6/2021
+930,"Dog, bush",Maroon,8/23/2021
+931,Musk ox,Indigo,11/18/2020
+932,"Duck, mountain",Khaki,2/1/2021
+933,Guanaco,Teal,8/15/2021
+934,"Falcon, peregrine",Goldenrod,8/31/2020
+935,"Lion, asian",Pink,3/25/2021
+936,"Monkey, rhesus",Crimson,5/18/2020
+937,"Gorilla, western lowland",Green,5/17/2020
+938,North American red fox,Orange,2/25/2021
+939,"Tern, white-winged black",Mauv,1/16/2020
+940,Leopard,Khaki,8/15/2020
+941,"White-eye, pale",Red,1/7/2021
+942,"Squirrel, smith's bush",Teal,3/13/2021
+943,"Bulbul, african red-eyed",Puce,8/19/2020
+944,"Trotter, lily",Turquoise,5/1/2020
+945,Black-cheeked waxbill,Violet,5/25/2020
+946,Violet-crested turaco,Yellow,2/27/2020
+947,Numbat,Red,5/31/2021
+948,"Buffalo, american",Indigo,9/14/2021
+949,Two-toed tree sloth,Indigo,7/30/2020
+950,"Coot, red-knobbed",Fuscia,8/26/2021
+951,Australian brush turkey,Yellow,1/26/2020
+952,Ocelot,Orange,2/10/2020
+953,"Weaver, lesser masked",Aquamarine,9/4/2021
+954,Eurasian beaver,Goldenrod,6/26/2021
+955,Cattle egret,Goldenrod,6/8/2020
+956,"Chickadee, black-capped",Mauv,7/24/2020
+957,Russian dragonfly,Turquoise,11/21/2020
+958,"Armadillo, seven-banded",Aquamarine,9/21/2020
+959,"Heron, little",Goldenrod,9/21/2021
+960,"Badger, honey",Fuscia,9/15/2020
+961,"Polecat, african",Red,3/14/2020
+962,Ring-tailed coatimundi,Violet,11/14/2020
+963,Fringe-eared oryx,Purple,6/12/2021
+964,American bighorn sheep,Red,1/2/2020
+965,White-throated kingfisher,Pink,7/21/2020
+966,Wood pigeon,Teal,3/22/2021
+967,Silver-backed jackal,Purple,12/14/2020
+968,"Lorikeet, scaly-breasted",Goldenrod,1/25/2021
+969,Great egret,Blue,3/21/2021
+970,Fairy penguin,Crimson,8/14/2020
+971,"Constrictor, eastern boa",Fuscia,5/25/2020
+972,"Pintail, bahama",Pink,11/15/2020
+973,Asiatic wild ass,Orange,5/25/2020
+974,Red-tailed phascogale,Mauv,7/26/2020
+975,"Trumpeter, green-winged",Violet,1/6/2021
+976,Hottentot teal,Indigo,10/5/2020
+977,African porcupine,Turquoise,10/5/2021
+978,"Badger, european",Khaki,5/7/2020
+979,"Gull, lava",Teal,3/9/2021
+980,Agile wallaby,Puce,4/16/2021
+981,Red-capped cardinal,Goldenrod,9/15/2021
+982,"Turtle, long-necked",Green,11/23/2020
+983,Snowy sheathbill,Violet,7/26/2020
+984,"Baboon, savanna",Puce,8/21/2020
+985,Jaguar,Indigo,1/9/2021
+986,Sarus crane,Purple,6/10/2020
+987,"Albatross, waved",Khaki,5/5/2020
+988,"Opossum, american virginia",Violet,2/19/2020
+989,"Dove, emerald-spotted wood",Red,7/9/2020
+990,"Jackrabbit, white-tailed",Fuscia,3/27/2020
+991,"Lemur, brown",Khaki,7/10/2020
+992,White spoonbill,Pink,7/27/2021
+993,"Crane, sarus",Purple,5/28/2021
+994,Giant otter,Indigo,3/24/2021
+995,"Lion, galapagos sea",Red,12/3/2020
+996,Crab (unidentified),Mauv,9/16/2020
+997,Bateleur eagle,Orange,10/11/2020
+998,Cottonmouth,Orange,7/31/2021
+999,Sun gazer,Teal,12/9/2020
+1000,Water monitor,Aquamarine,7/22/2020
