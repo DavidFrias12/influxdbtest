@@ -1,6 +1,6 @@
 #group,false,false,false,false
-#default,,,,,
-#datatype,measurement,tag,tag,dateTime:RFC3339
+#datatype measurement,tag,tag,dateTime:RFC3339
+#default,,,,
 id,animal_name,skin_color,date_birth
 1,Red brocket,Turquoise,8/29/2020
 2,Green-backed heron,Indigo,11/13/2020
