@@ -1,3 +1,5 @@
+#group,false,false,false,false
+#default,,,,
 #datatype,measurement,tag,tag,dateTime:RFC3339
 id,animal_name,skin_color,date_birth
 1,Red brocket,Turquoise,8/29/2020
